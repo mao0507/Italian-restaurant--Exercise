@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>諾浩義式餐廳</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+	<!-- Logo  選單區塊 -->
+		<div class="top">
+			<img src="img/logo.png" class="logo-img">
+			<ul>
+			<li><a href="index.html">品牌故事</a></li>
+			<li><a href="menu.html">菜單介紹</a></li>
+			<li><a href="environment.html">餐廳環境</a></li>
+			<li><a href="map.html">交通資訊</a></li>
+			<li><a href="contact.html">聯絡我們</a></li>
+			</ul>
+		</div>
+		<!-- 上面廣告圖片-->
+		<div class="banner1">
+			<img src ="img/index-banner1.png" class="banner1-img">
+		</div>
+		<!-- 表單-->
+		<form action="index.html" method="get" class="contact-form" id="contact-form">
+			<div class="contact-table">
+				<div class="contact-row">
+					<div class="contact-cell">
+						<label for="user-name">姓名:</label>
+					</div>
+					<div class="contact-cell">
+						<input type="text" name="user-name" id="user-name">
+					</div>
+				</div>
+				<div class="contact-row">
+					<div class="contact-cell">
+						<label for="mobile">電話:</label>
+					</div>
+					<div class="contact-cell">
+						<input type="text" name="mobile" id="mobile">
+					</div>
+				</div>
+				<div class="contact-row">
+					<div class="contact-cell">
+						<label for="email">E-Mail:</label>
+					</div>
+					<div class="contact-cell">
+						<input type="text" name="email" id="email">
+					</div>
+				</div>
+				<div class="contact-row">
+					<div class="contact-cell">
+						<label for="type">問題列別:</label>
+					</div>
+					<div class="contact-cell">
+						<select name="type" id="type">
+							<option>餐點問題</option>
+							<option>服務問題</option>
+							<option>環境問題</option>
+							<option>宅配問題</option>
+						</select>
+					</div>
+				</div>
+				<div class="contact-row">
+					<div class="contact-cell">
+						<label for="gender">性別:</label>
+					</div>
+					<div class="contact-cell">
+						<input type="radio" name="gender" value="male" id="gender" checked>男性
+						<input type="radio" name="gender" value="female">女性
+					</div>
+				</div>
+				<div class="contact-row">
+					<div class="contact-cell">
+						<label for="meal">推薦餐點:</label>
+					</div>
+					<div class="contact-cell">
+						<input type="checkbox" name="Pasta" value="Pasta" id="meal">義大利麵
+						<input type="checkbox" name="Risotto" value="Risotto">燉飯
+						<input type="checkbox" name="Main" value="Main">排餐
+						<input type="checkbox" name="Light" value="Light">輕食
+						<input type="checkbox" name="KIDS" value="KIDS">兒童餐
+						<input type="checkbox" name="special" value="special">主廚私房料理
+					</div>
+				</div>
+				<div class="contact-row">
+					<div class="contact-cell">
+						<label for="more">更多意見</label>
+					</div>
+					<div class="contact-cell">
+						<textarea name="more" id="more"></textarea>
+					</div>
+				</div>
+				<div class="contact-row">
+					<div class="contact-cell"></div>
+					<div class="contact-cell">
+						<button type="submit" form="contact-form" class="submit-btn">確認送出</button>
+					</div>
+				</div>
+			</div>
+		</form>
+		<!--尋找我們-->
+		<div class="footer">
+
+			<p>
+			台中市西區台灣大道2段2號13F
+
+			</p>
+		</div>		
+	
+	</div>
+	
+	
+</body>
+</html>

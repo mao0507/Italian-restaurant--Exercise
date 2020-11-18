@@ -1,0 +1,3 @@
+border-style: solid;   (邊框樣式)
+border-width: 2px;     (邊框寬度)
+border-color: #FF0000; (邊框顏色)

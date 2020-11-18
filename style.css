@@ -1,0 +1,293 @@
+.text1{
+	color: #1A5FBB ;
+}
+
+p{
+color:#E11111;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+a:visited{
+	color: #63D6FF;
+}
+
+a:hover{
+	color:#BFEB1E;
+	text-decoration:underline; 
+}
+
+a:active{
+	color: #23DDBD;
+}
+
+#bgred{
+	background-color:#373839;
+	width:200px;
+	height:300px;
+}
+.story{
+	background-image: url(img/story.png);
+	height: 350px;
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: 120px 100px;
+
+}
+.story-text{
+	width: 800px;
+	background-color: rgba(70,115,95,0.7);
+	color:#FFFFE7;
+	line-height: 35px;
+	float: left;
+	width: 400px;
+	height:350px;
+}
+.story-title{
+	color:#36C671;
+	font-size:25px;
+	font-weight:bold
+}
+.story-img{
+	width:380px;
+	float: right;
+	height:350px;
+	background-image: url("img/story-img.png");
+	background-size: auto 350px;
+	background-repeat: no-repeat;
+	background-position: 150px 0px;
+}
+.banner1-img{
+	width: 100%;
+}
+.banner2-img{
+	width: 100%;
+}
+ul{
+	list-style:none;
+	float:right;
+}
+li{
+	display: inline;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px; 
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2aba85+0,3bdbc3+100 */
+	background: #2aba85; /* Old browsers */
+	background: -moz-linear-gradient(top, #2aba85 0%, #3bdbc3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #2aba85 0%,#3bdbc3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #2aba85 0%,#3bdbc3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2aba85', endColorstr='#3bdbc3',GradientType=0 ); /* IE6-9 */
+	
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+
+
+
+
+}
+li:hover{
+	background-color:#2C35DC ;
+}
+.top{
+	background-color: #0B9172;
+	height: 100px;
+	position:fixed;
+	width: 100%;
+	z-index: 101;
+
+}
+.menu-list{
+	width:40%;
+	height: 605px;
+	
+	float:left;
+	padding:0 50px ;
+	background-image: url("img/menu/menu-list-bg.png");
+	background-size: 100%;
+}
+.menu-img{
+	width:40%;	
+	float:right;
+	background-image: url("img/menu/menu-img-bg.png");
+	background-repeat: no-repeat;
+	text-align: right;
+}
+img{
+	width: 33%;
+}
+.footer{
+	background-color: #F3D2D2;
+	clear: both;
+}
+.environment-img{
+	 position: relative;
+	 float: left;
+}
+.environment-img h1{
+	position: absolute;
+	top:40px;
+	left:80px;
+	color:#FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+	width: 50%;
+	padding:25px;
+	text-align:center;
+	z-index: 100
+	background-color:rgba(30,90,100,0.6);
+
+}
+.environment-img img{
+	width: 100%;
+}
+
+.menu-table{
+	
+	border-collapse: collapse;
+	width:100%;
+	height: 500px;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+th{
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width:1px;
+
+}
+td{
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px;
+}
+tr:nth-child(odd){
+	background-color: #3E8B9D;
+
+}
+tr:nth-child(odd):hover{
+	background-color: #4FAEC4;
+
+}
+tr:nth-child(even){
+	background-color:#E61515;
+}
+tr:nth-child(even):hover{
+	background-color:#36A098;
+}
+.div-table{
+	display: table;
+	border-style:solid;
+	border-color:#2C5075;
+	border-width: 1px;
+	width: 100%;
+	height: 500px;
+
+}
+.table-tr:nth-child(odd){
+	display: table-row;
+	background-color: #3E8B9D;
+}
+.table-tr:nth-child(odd):hover{
+	display: table-row;
+	background-color: #4FAEC4;
+}
+.table-tr:nth-child(even){
+	display: table-row;
+	background-color: #23716B;
+}
+.table-tr:nth-child(even):hover{
+	display: table-row;
+	background-color: #36A098;
+}
+.table-td{
+	display:table-cell;
+	border-style:solid;
+	bo
+	rder-color:#2C5075;
+	border-width: 1px;
+}
+.contact-table{
+	display: table;
+	background-color: #285E6E;
+	margin-left: 10%;
+}
+.contact-row{
+	display: table-row;
+}
+.contact-cell{
+	display: table-cell;
+	padding:10px;
+	border-bottom: 1px dashed #FFFFFF;
+	color:#FFFFFF;
+}
+.contact-cell:nth-child(odd){
+		text-align: right;
+}
+.contact-form{
+	background-image:  url("img/contact-bg.jpg");
+	padding:20px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#user-name, #mobile, #email{
+	height: 25px;
+	width: 40%;
+
+}
+#type{
+	height: 35px;
+	width: 200px;
+}
+#more{
+	width: 100%;
+	height:200px;
+}
+.submit-btn{
+	background-color:#24889D;
+	width: 150px;
+	height: 50px;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.logo-img{
+	
+	width: 220px;
+	margin-left: 20px;
+	margin-top: 20px
+}
+.footer{
+	padding: 5px;
+	text-align: center;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#89b77c+0,2eba68+46,2da37d+100 */
+	background: #89b77c; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #89b77c 0%, #2eba68 46%, #2da37d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #89b77c 0%,#2eba68 46%,#2da37d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #89b77c 0%,#2eba68 46%,#2da37d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#89b77c', endColorstr='#2da37d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.footer p{
+	color:#3A8A44;
+}
+.environment{
+	background-color: #326976;
+	width: 100%;
+	height:511px;
+}
+.environment .environment-center{
+ width: 1140px;
+ margin-left:auto;
+ margin-right:auto;
+}
+

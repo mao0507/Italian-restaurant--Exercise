@@ -1,0 +1,17 @@
+width 寬度
+height 高度
+background-color 背景顏色
+line-height 字體行距高度
+font-size 字體大小
+font-weight 設定字體粗細
+border-style 邊框樣式
+border-width 邊框寬度
+margin 外距
+padding 內距
+list-style 清單樣式
+float 浮動
+display 顯示 
+inline-block 行內區塊
+hover 滑過顯示
+position 定位
+z-index 調整圖層順序
